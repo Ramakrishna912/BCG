@@ -277,6 +277,49 @@ body{font-family:"DM Sans",system-ui,sans-serif;color:var(--color-text);overflow
 </div>
 </div>
 
+<!-- ═══ SLIDE 10: KEY TRADEOFF / CONFLICT ═══ -->
+
+<div class="slide slide-8" data-slide="8">
+<div class="top-bar"></div>
+<div class="gradient-mesh">
+<div class="blob" style="width:380px;height:380px;top:-100px;right:-70px;background:#fce7f3;opacity:0.38;"></div>
+<div class="blob" style="width:260px;height:260px;bottom:-65px;left:-45px;background:#fef3c7;opacity:0.35;"></div>
+</div>
+<div class="content">
+<div class="reveal" style="margin-bottom:0.3rem;"><span class="pill" style="background:rgba(220,38,38,0.08);border-color:rgba(220,38,38,0.2);color:#dc2626;">Real-World Complexity</span></div>
+<h2 class="reveal" style="font-family:'DM Serif Display',serif;font-size:clamp(1.6rem,3.2vw,2.3rem);color:#12122a;font-weight:400;margin:0 0 0.25rem 0;">Key Tradeoff &amp; Stakeholder Conflict</h2>
+<p class="reveal" style="font-size:0.82rem;color:#6b6b8a;margin:0 0 1rem 0;">Design doesn't happen in a vacuum. Here's a real conflict — the pushback, my reasoning, and how it resolved.</p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:0.85rem;">
+  <div class="finding-card red reveal">
+    <div class="finding-tag critical">The Pushback</div>
+    <div style="font-size:0.82rem;font-weight:700;color:#12122a;margin-bottom:0.35rem;">Stakeholders demanded "show everything on one screen"</div>
+    <p style="font-size:0.76rem;color:#3a3a58;line-height:1.6;margin:0;">The Performance Management squad's Product Owner insisted all 18 KPIs appear on the primary view — no tabs, no drill-downs, no hiding. "Our users are senior leaders. They need everything."</p>
+  </div>
+  <div class="finding-card amber reveal">
+    <div class="finding-tag ecomm">My Position</div>
+    <div style="font-size:0.82rem;font-weight:700;color:#12122a;margin-bottom:0.35rem;">Progressive disclosure is not hiding data — it's respecting attention</div>
+    <p style="font-size:0.76rem;color:#3a3a58;line-height:1.6;margin:0;">I presented usability testing evidence: users on the "all visible" prototype took 2× longer to locate their primary metric. Cognitive load — not missing data — was the actual barrier to speed.</p>
+  </div>
+</div>
+<div style="display:flex;flex-direction:column;gap:0.6rem;">
+  <div class="card reveal" style="border-left:3px solid #16a34a;display:flex;align-items:flex-start;gap:0.75rem;">
+    <span style="font-size:1rem;flex-shrink:0;margin-top:2px;">🤝</span>
+    <div>
+      <div style="font-size:0.78rem;font-weight:700;color:#16a34a;margin-bottom:0.18rem;">How it resolved</div>
+      <p style="font-size:0.75rem;color:#3a3a58;margin:0;line-height:1.55;">We ran a structured A/B comparison with 4 actual users from that squad. Both designs were tested against the same task: "Find last week's revenue shortfall." Progressive disclosure won on speed (avg. 34s vs 71s). The PO aligned.</p>
+    </div>
+  </div>
+  <div class="card reveal" style="border-left:3px solid #1a4b8c;display:flex;align-items:flex-start;gap:0.75rem;">
+    <span style="font-size:1rem;flex-shrink:0;margin-top:2px;">📌</span>
+    <div>
+      <div style="font-size:0.78rem;font-weight:700;color:#1a4b8c;margin-bottom:0.18rem;">What I learned</div>
+      <p style="font-size:0.75rem;color:#3a3a58;margin:0;line-height:1.55;">Stakeholder pushback on simplification is usually fear — fear that their requirements won't be met. The answer isn't to argue design principles. It's to <strong>put data in the room.</strong> Testing is the most persuasive design artefact.</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+  
 
 <div class="slide slide-6" data-slide="6">
 <div class="top-bar"></div>
@@ -371,50 +414,6 @@ body{font-family:"DM Sans",system-ui,sans-serif;color:var(--color-text);overflow
 <p style="font-size:0.78rem; color:#3a3a58; line-height:1.6; margin:0;">A multi-line comparison chart chosen to allow simultaneous tracking of Actuals, Sold, and Pipeline across three years — <strong>eliminating the manual cross-referencing that was creating decision latency for leadership.</strong></p>
 </div>
 </div>
-</div>
-</div>
-</div>
-
-
-<!-- ═══ SLIDE 10: KEY TRADEOFF / CONFLICT ═══ -->
-
-<div class="slide slide-8" data-slide="8">
-<div class="top-bar"></div>
-<div class="gradient-mesh">
-<div class="blob" style="width:380px;height:380px;top:-100px;right:-70px;background:#fce7f3;opacity:0.38;"></div>
-<div class="blob" style="width:260px;height:260px;bottom:-65px;left:-45px;background:#fef3c7;opacity:0.35;"></div>
-</div>
-<div class="content">
-<div class="reveal" style="margin-bottom:0.3rem;"><span class="pill" style="background:rgba(220,38,38,0.08);border-color:rgba(220,38,38,0.2);color:#dc2626;">Real-World Complexity</span></div>
-<h2 class="reveal" style="font-family:'DM Serif Display',serif;font-size:clamp(1.6rem,3.2vw,2.3rem);color:#12122a;font-weight:400;margin:0 0 0.25rem 0;">Key Tradeoff &amp; Stakeholder Conflict</h2>
-<p class="reveal" style="font-size:0.82rem;color:#6b6b8a;margin:0 0 1rem 0;">Design doesn't happen in a vacuum. Here's a real conflict — the pushback, my reasoning, and how it resolved.</p>
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:0.85rem;">
-  <div class="finding-card red reveal">
-    <div class="finding-tag critical">The Pushback</div>
-    <div style="font-size:0.82rem;font-weight:700;color:#12122a;margin-bottom:0.35rem;">Stakeholders demanded "show everything on one screen"</div>
-    <p style="font-size:0.76rem;color:#3a3a58;line-height:1.6;margin:0;">The Performance Management squad's Product Owner insisted all 18 KPIs appear on the primary view — no tabs, no drill-downs, no hiding. "Our users are senior leaders. They need everything."</p>
-  </div>
-  <div class="finding-card amber reveal">
-    <div class="finding-tag ecomm">My Position</div>
-    <div style="font-size:0.82rem;font-weight:700;color:#12122a;margin-bottom:0.35rem;">Progressive disclosure is not hiding data — it's respecting attention</div>
-    <p style="font-size:0.76rem;color:#3a3a58;line-height:1.6;margin:0;">I presented usability testing evidence: users on the "all visible" prototype took 2× longer to locate their primary metric. Cognitive load — not missing data — was the actual barrier to speed.</p>
-  </div>
-</div>
-<div style="display:flex;flex-direction:column;gap:0.6rem;">
-  <div class="card reveal" style="border-left:3px solid #16a34a;display:flex;align-items:flex-start;gap:0.75rem;">
-    <span style="font-size:1rem;flex-shrink:0;margin-top:2px;">🤝</span>
-    <div>
-      <div style="font-size:0.78rem;font-weight:700;color:#16a34a;margin-bottom:0.18rem;">How it resolved</div>
-      <p style="font-size:0.75rem;color:#3a3a58;margin:0;line-height:1.55;">We ran a structured A/B comparison with 4 actual users from that squad. Both designs were tested against the same task: "Find last week's revenue shortfall." Progressive disclosure won on speed (avg. 34s vs 71s). The PO aligned.</p>
-    </div>
-  </div>
-  <div class="card reveal" style="border-left:3px solid #1a4b8c;display:flex;align-items:flex-start;gap:0.75rem;">
-    <span style="font-size:1rem;flex-shrink:0;margin-top:2px;">📌</span>
-    <div>
-      <div style="font-size:0.78rem;font-weight:700;color:#1a4b8c;margin-bottom:0.18rem;">What I learned</div>
-      <p style="font-size:0.75rem;color:#3a3a58;margin:0;line-height:1.55;">Stakeholder pushback on simplification is usually fear — fear that their requirements won't be met. The answer isn't to argue design principles. It's to <strong>put data in the room.</strong> Testing is the most persuasive design artefact.</p>
-    </div>
-  </div>
 </div>
 </div>
 </div>
